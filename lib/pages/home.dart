@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:developer';
 
 import 'package:agroaquivr1/pages/unicapera.dart';
@@ -140,8 +141,6 @@ class _HomeWidgetState extends State<HomeWidget> {
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           Container(
-            width: double.infinity,
-            height: 260,
             decoration: const BoxDecoration(
               color: Colors.white,
             ),
@@ -156,19 +155,19 @@ class _HomeWidgetState extends State<HomeWidget> {
                     itemCount: papas!.length,
                     itemBuilder: (context, index) {
                       final papa = papas[index];
-                      return Container(
-                        color: Colors.white,
-                        width: 200,
-                        height: 200,
-                        child: Card(
-                            child: ListTile(
-                          title: Text(papa.name),
-                          subtitle: Text(papa.tipo),
-                          onTap: () {
-                            log('GO');
-                          },
-                        )),
-                      );
+                      return Card(
+                          margin: const EdgeInsets.all(16),
+                          child: ListTile(
+                            leading: Image(
+                              image: MemoryImage(base64Decode(papa.img)),
+                              height: 300,
+                            ),
+                            title: Text(papa.name),
+                            subtitle: Text(papa.tipo),
+                            onTap: () {
+                              log('GO');
+                            },
+                          ));
                     },
                   );
                 } else {
