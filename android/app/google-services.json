@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "333796334585",
+    "project_id": "pruebaagroaqui",
+    "storage_bucket": "pruebaagroaqui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333796334585:android:7a3b36092252d9340afb28",
+        "android_client_info": {
+          "package_name": "com.example.agroaquivr1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333796334585-20ldqav06t4he6p7sue8qlo6dndhfsvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agroaquivr1",
+            "certificate_hash": "6d8257b7b8d77f5bb843805e1e9997f4a76636b7"
+          }
+        },
+        {
+          "client_id": "333796334585-ep3brv2s40v2j0nvl880liftk9ks5uui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn63vsjNxvTia444O-wkWAmN2gI9NuoB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333796334585-ep3brv2s40v2j0nvl880liftk9ks5uui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

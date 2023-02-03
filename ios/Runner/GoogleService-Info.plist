@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>333796334585-1uosfr9fu2u2eoo6hrgra5b3qlprjeqf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.333796334585-1uosfr9fu2u2eoo6hrgra5b3qlprjeqf</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>333796334585-20ldqav06t4he6p7sue8qlo6dndhfsvr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDkK23XDUw9UFKgw-EG7f48eABzp40Ift0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>333796334585</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.agroaquivr1</string>
+	<key>PROJECT_ID</key>
+	<string>pruebaagroaqui</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pruebaagroaqui.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:333796334585:ios:c4f23131dd3f75fc0afb28</string>
+</dict>
+</plist>
